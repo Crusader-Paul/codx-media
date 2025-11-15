@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CodX Media — Creative Learning & Tech</title>
+  <meta name="description" content="CodX Media — educational content, web development, and creative media. Courses, tutorials, and custom projects." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">CodX Media</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <h1>Learn. Build. Share.</h1>
+        <p>Interactive coding lessons, creative media, and tools to help students and creators level up.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#services">Our Services</a>
+          <a class="btn ghost" href="#contact">Work with us</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>About CodX Media</h2>
+      <p>CodX Media produces bite-sized, practical lessons on web development, Scratch programming, and multimedia for learners aged 8 to adult. We design curriculum, create lesson notes, and build real projects for classrooms and individuals.</p>
+
+      <div class="stats">
+        <div class="stat"><strong>100+</strong><span>Lessons</span></div>
+        <div class="stat"><strong>50+</strong><span>Projects</span></div>
+        <div class="stat"><strong>4.8/5</strong><span>Average Rating</span></div>
+      </div>
+    </section>
+
+    <section id="services" class="container services">
+      <h2>Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Curriculum & Lesson Notes</h3>
+          <p>Custom lesson plans, worksheets and activity guides for schools and tutoring.</p>
+        </div>
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>Landing pages, portfolios, small business websites with modern HTML/CSS/JS stacks.</p>
+        </div>
+        <div class="card">
+          <h3>Media & Video</h3>
+          <p>Short motivational clips, video editing and voiceover direction for social platforms.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="container portfolio">
+      <h2>Selected Work</h2>
+      <div class="grid portfolio-grid">
+        <figure class="work">
+          <img src="assets/placeholder-1.jpg" alt="Project screenshot">
+          <figcaption>Interactive Scratch lessons — Grade 5</figcaption>
+        </figure>
+        <figure class="work">
+          <img src="assets/placeholder-2.jpg" alt="Project screenshot">
+          <figcaption>CodX Technologies e-commerce prompt & demo</figcaption>
+        </figure>
+        <figure class="work">
+          <img src="assets/placeholder-3.jpg" alt="Project screenshot">
+          <figcaption>School Management System UI prototype</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <p>Want to collaborate, host a class, or commission a website? Send a message below.</p>
+
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="form-row actions">
+          <button type="submit" class="btn primary">Send message</button>
+        </div>
+        <p id="formStatus" class="form-status" aria-live="polite"></p>
+      </form>
+
+      <div class="contact-meta">
+        <p><strong>Owner</strong>: Paul Asenso</p>
+        <p><strong>Brand</strong>: CodX Media</p>
+        <p><strong>Services</strong>: Lessons, Web Dev, Media Production</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> CodX Media — All rights reserved.</p>
+      <p class="footer-links"><a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
